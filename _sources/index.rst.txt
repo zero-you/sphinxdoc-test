@@ -10,7 +10,7 @@ Welcome to sphinxdoc-test's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   includeme
+   apiAndArchitecture
 
 Indices and tables
 ==================
