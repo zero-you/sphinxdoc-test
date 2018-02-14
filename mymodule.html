@@ -36,8 +36,8 @@
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="sphinxdoc-test 0.1.0 documentation" href="index.html"/>
-        <link rel="up" title="&lt;no title&gt;" href="apiAndArchitecture.html"/>
-        <link rel="prev" title="&lt;no title&gt;" href="apiAndArchitecture.html"/> 
+        <link rel="up" title="API and architecture" href="apiAndArchitecture.html"/>
+        <link rel="prev" title="API and architecture" href="apiAndArchitecture.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -92,7 +92,10 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">My Module</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="apiAndArchitecture.html">API and architecture</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">My Module</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -137,7 +140,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-          <li><a href="apiAndArchitecture.html">&lt;no title&gt;</a> &raquo;</li>
+          <li><a href="apiAndArchitecture.html">API and architecture</a> &raquo;</li>
         
       <li>My Module</li>
     
@@ -158,20 +161,74 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="module-mymodule.myclasses">
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+/* nice headers on first paragraph of info/warning boxes */
+.admonition .first {
+    margin: -12px;
+    padding: 6px 12px;
+    margin-bottom: 12px;
+    color: #fff;
+    line-height: 1;
+    display: block;
+}
+.admonition.warning .first {
+    background: #f0b37e;
+}
+.admonition.note .first {
+    background: #6ab0de;
+}
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+</style>
+<div class="section" id="module-mymodule.myclasses">
 <span id="my-module"></span><h1>My Module<a class="headerlink" href="#module-mymodule.myclasses" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
 <dt id="mymodule.TestClass">
 <em class="property">class </em><code class="descclassname">mymodule.</code><code class="descname">TestClass</code><span class="sig-paren">(</span><em>verbose=0</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/mymodule/myclasses.html#TestClass"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#mymodule.TestClass" title="Permalink to this definition">¶</a></dt>
 <dd><p>This is a test class</p>
+<p class="rubric">Attributes</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">status</span></code></td>
+<td>Status of object creation</td>
+</tr>
+</tbody>
+</table>
 <dl class="method">
 <dt id="mymodule.TestClass.__init__">
 <code class="descname">__init__</code><span class="sig-paren">(</span><em>verbose=0</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/mymodule/myclasses.html#TestClass.__init__"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#mymodule.TestClass.__init__" title="Permalink to this definition">¶</a></dt>
 <dd><p>Initiate the test class object</p>
-<dl class="docutils">
-<dt>verbose <span class="classifier-delimiter">:</span> <span class="classifier">int</span></dt>
-<dd>the level of details to be printed to stdout</dd>
-</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>verbose</strong> : int</p>
+<blockquote class="last">
+<div><p>the level of details to be printed to stdout</p>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
@@ -201,7 +258,7 @@
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
       
-        <a href="apiAndArchitecture.html" class="btn btn-neutral" title="&lt;no title&gt;" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="apiAndArchitecture.html" class="btn btn-neutral" title="API and architecture" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
