@@ -37,7 +37,7 @@
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="sphinxdoc-test 0.1.0 documentation" href="index.html"/>
         <link rel="up" title="API and architecture" href="apiAndArchitecture.html"/>
-        <link rel="prev" title="API and architecture" href="apiAndArchitecture.html"/> 
+        <link rel="prev" title="UML diagram" href="uml.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -93,6 +93,7 @@
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="apiAndArchitecture.html">API and architecture</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="uml.html">UML diagram</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">My Module</a></li>
 </ul>
 </li>
@@ -202,14 +203,26 @@
 <em class="property">class </em><code class="descclassname">mymodule.</code><code class="descname">TestClass</code><span class="sig-paren">(</span><em>verbose=0</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/mymodule/myclasses.html#TestClass"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#mymodule.TestClass" title="Permalink to this definition">¶</a></dt>
 <dd><p>This is a test class</p>
 <p class="rubric">Attributes</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="24%" />
+<col width="76%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>status</strong></td>
+<td>(str) status of object creation</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods</p>
 <table border="1" class="longtable docutils">
 <colgroup>
 <col width="10%" />
 <col width="90%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">status</span></code></td>
-<td>Status of object creation</td>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal"><span class="pre">testfun</span></code>(test_input)</td>
+<td>A test function</td>
 </tr>
 </tbody>
 </table>
@@ -237,10 +250,27 @@
 <dd><p>list of weak references to the object (if defined)</p>
 </dd></dl>
 
-<dl class="attribute">
-<dt id="mymodule.TestClass.status">
-<code class="descname">status</code><a class="headerlink" href="#mymodule.TestClass.status" title="Permalink to this definition">¶</a></dt>
-<dd><p>Status of object creation</p>
+<dl class="method">
+<dt id="mymodule.TestClass.testfun">
+<code class="descname">testfun</code><span class="sig-paren">(</span><em>test_input</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/mymodule/myclasses.html#TestClass.testfun"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#mymodule.TestClass.testfun" title="Permalink to this definition">¶</a></dt>
+<dd><p>A test function</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>test_input</strong> : list</p>
+<blockquote>
+<div><p>a list of integers</p>
+</div></blockquote>
+<p><strong>Returns</strong></p>
+<p><strong>out</strong> : list</p>
+<blockquote class="last">
+<div><p>a list of integers</p>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 </dd></dl>
@@ -258,7 +288,7 @@
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
       
-        <a href="apiAndArchitecture.html" class="btn btn-neutral" title="API and architecture" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="uml.html" class="btn btn-neutral" title="UML diagram" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
